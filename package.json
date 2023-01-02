@@ -1,0 +1,21 @@
+{
+  "name": "ksiazka-kucharska",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "api": "cd database &&  node server.js ",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.44.0",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.14"
+  }
+}
